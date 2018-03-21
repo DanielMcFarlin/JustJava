@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Just Java</string>
+
+    <!--_______________Strings I used in XML____________________-->
+    <!--The Hint "Name" in the fill in the EditText-->
+    <string name="name">Name</string>
+
+    <!--"Toppings" Header Text-->
+    <string name="toppings">Toppings</string>
+
+    <!--CheckBox "Whipped Cream" Title-->
+    <string name="whipped_cream">Whipped Cream</string>
+
+    <!--CheckBox "Chocolate" Title-->
+    <string name="chocolate">Chocolate</string>
+
+    <!--"Quantity" Header Text-->
+    <string name="quantity">Quantity</string>
+
+    <!--Button "Order" Title-->
+    <string name="order">Order</string>
+
+    <!--Toast For Too Many Coffees-->
+<string name="way_too_much_coffee">You do NOT need that many coffees!</string>
+
+    <!--Toast For Negative Coffees-->
+    <string name="negative_coffees_error">You can NOT have negative coffee!</string>
+
+
+    <!--________Strings I used in Order Summary_________________-->
+
+    <!--Name for the order summary only translating certain parts-->
+    <string name="order_summary_name">Name: <xliff:g id="name" example="Amy">%s</xliff:g></string>
+
+    <!--Sets whether or not they want whipped cream on their java with out translating input-->
+    <string name="order_summary_whipped_cream">Add Whipped Cream? <xliff:g id="addWhippedCream" example=" true">%b</xliff:g></string>
+
+    <!--Sets whether or noth the want chocolate in their coffee without translation of input-->
+    <string name="order_summary_chocolate">Add Chocolate? <xliff:g id="addChocolate" example="true">%b</xliff:g></string>
+
+    <!--Order Summary Quantity without translating input-->
+    <string name="order_summary_quantity">Quantity <xliff:g id="quantity" example="2">%d</xliff:g></string>
+
+    <!--Order Summary Total price with not translation in $$$-->
+    <string name="order_summary_price">Total <xliff:g id="price" example="$10">%s</xliff:g></string>
+
+    <!--Thank You message for order summary-->
+    <string name="thank_you">Thank You! :)</string>
+
+    <!--Automatically sets an Email subject on order summary-->
+    <string name="order_summary_email_subject"> One Java For <xliff:g id="name" example="Amy"> </xliff:g></string>
+
+
+</resources>
